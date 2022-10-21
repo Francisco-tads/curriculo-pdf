@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--========== CSS ==========-->
+    <link rel="shortcut icon" href="./assets/img/code-icon.jpg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Meu cv</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="" class="nav__logo">Francisco</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>PERFIL PROFISSIONAL
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>FORMAÇÃO ACADÊMICA
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>HABILIDADES
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>EXPERIÊNCIA
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>CERTIFICADOS
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#references" class="nav__link">
+                            <i class='bx bx-link-external'></i>INFORMAÇÕES ADICIONAIS
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt nav__icon'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- Todos os elementos dentro desta div, são gerados em PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/francisco.jpg" alt="" class="home__img">
+
+                            <h1 class="home__title">FRANCISCO <b>VIEIRA</b></h1>
+                            <h3 class="home__profession">Desenvolvedor Web</h3>
+                            <!-- Botão para gerar e baixar o pdf. Disponível para desktop. -->
+                            <div>
+                                <a download="" href="assets/pdf/CV_FRANCISCO  VIEIRA tads.pdf"
+                                    class="home__button-movil">Download</a>
+                            </div>
+                        </div>
+                        <!--========== CONTATO 1==========-->
+                        <h2 class="section-title">CONTATO</h2>
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i>Rua Tommaso Giordani, São Paulo - SP
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i>francisco.vieiratads@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i>(11) 98667-5897
+                            </span>
+                        </div>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/francisco-vieiratads/" target="_blank"
+                                class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon'></i>linkedin.com/in/francisco-vieiratads
+                            </a>
+                            <a href="https://github.com/Francisco-tads" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon'></i>github.com/Francisco-tads
+                            </a>
+                            <a href="https://www.instagram.com/francisco.s.vieira7/" target="_blank"
+                                class="social__link">
+                                <i class='bx bxl-instagram social__icon'></i>francisco.s.vieira7
+                            </a>
+                        </div>
+                    </div>
+                    <!--========== Mudança de tema do button ==========-->
+                    <i class='bx bx-moon change-theme' title="theme" id="theme-button"></i>
+
+                    <!-- Botão para gera e baixar em pdf. Disponivel para desktop -->
+                    <i class='bx bx-download generate-pdf' title="BAIXAR PDF" id="resume-button"></i>
+                </section>
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">PERFIL PROFISSIONAL</h2>
+                    <p class="profile__description">Sou graduado em Análise e Desenvolvimento de Sistemas. Possuo amplo
+                        conhecimento em metodologia ágil SCRUM e Kanban, engenharia de software, programação Web, HTML,
+                        CSS e Java, análise de dados com Python, desenvolvimento mobile, segurança cibernética,
+                        auditoria de sistemas e desenvolvimento de banco de dados SQL Server,
+                        além de possuir habilidades em linguagens de programação. Considero-me um profissional criativo,
+                        comprometido, proativo e estou sempre atualizando meus conhecimentos a fim de aprimorar minhas
+                        habilidades na área.</p>
+                </section>
+                <!--========== EDUCATION ==========-->
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">HABILIDADES</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>HTML (avançado)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>JavaScript (intermediário)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>CSS (intermediário)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>SQL Server (básico)
+                            </li>
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>React Native (básico)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>NIST (básico)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Git (intermediário)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Python (intermediário)
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <!--========== EXPERIENCE ==========-->
+            <div class="resume__right">
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">EXPERIÊNCIA PROFISSIONAL</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Desenvolvedor Web</h3>
+                                <span class="experience__company">Freelancer | JAN 2022</span>
+                                <p class="experience__description">Fui responsável pelo desenvolvimento de um websites
+                                    em HTML, CSS, Java, JavaScript e Python.
+                                </p>
+                                <h3 class="experience__title">Case: Desenvolvimento do Website, projeto-coffee.
+                                    Acesse o link: https://francisco-tads.github.io/</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">FORMAÇÃO ACADÊMICA</h2>
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="educantion__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Graduação em Análise e Desenvolvimento de Sistemas pela
+                                </h3>
+                                <span class="education__studies">Universidade Anhanguera</span>
+                                <span class="education__year">2020 - 2022</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="educantion__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Microsoft Excel (Básico ao Avançado)</h3>
+                                <span class="education__studies">IPED Cursos</span>
+                                <span class="education__year">07/2021 a 11/2021</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="educantion__time">
+                                <span class="education__rounder"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Comunicação em Negócios e Mídias Sociais</h3>
+                                <span class="education__studies">Universidade Anhanguera</span>
+                                <span class="education__year">03/2021 a 10/2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">CERTIFICADOS</h2>
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">INTRODUÇÃO À ANÁLISE DE DADOS DA MICROSOFT, DE JULHO À
+                                SEMTEBRO 2022</h3>
+                            <p class="certificate__description">Curso oferecido por "Escola do Trabalhador 4.0 em
+                                parceria com a Microsoft.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">TECNOLOGIAS DE INFORMAÇÃO APLICADAS AO DIREITO, DE MARÇO A
+                                SETEMBRO 2021 </h3>
+                            <p class="certificate__description">Curso complementar concluido, na Universidade
+                                Anhanguera.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">DIREITO ELETRÔNICO</h3>
+                            <p class="certificate__description">Curso complementar concluido, na Universidade
+                                Anhanguera.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="languages section">
+                    <h2 class="section-title">INFORMAÇÕES ADICIONAIS</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Pacote Office (avançado).
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Disponibilidade para viajar.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">IDIOMA</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Espanhol (básico)
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Inglês (básico)
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Hobby</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-music interests__icon'></i>
+                            <span class="interests__name">Ouvir música</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-camera-movie interests__icon'></i>
+                            <span class="interests__name">Assistir filme </span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-plane-alt interests__icon'></i>
+                            <span class="interests__name">Viajar</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-book interests__icon'></i>
+                            <span class="interests__name">Estudar</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bxs-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
