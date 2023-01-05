@@ -4,7 +4,7 @@
 
 # Sobre o projeto
 
-https://meu-portfolio.dev.br/
+https://francisco-tads.github.io/curriculo-pdf/
 
 Meu Curriculo é uma aplicação Web e mobile construída para que possa ser visualizada em qualquer tamanho te Tela, e podera também fazer o download em PDF. Entre no site  [Meu-Cv](https://meu-portfolio.dev.br/ "Site do Meu Curriculo").
 
